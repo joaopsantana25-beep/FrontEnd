@@ -15,8 +15,10 @@ var soma = a+b;
 var sub = a-b;
 var mult = a*b;
 var div = (a/b).toFixed(2);
+var media = (soma/2)
 
-console.log(soma);
-console.log(sub);
-console.log(mult);
-console.log(div);
+console.log("A soma de a e b é:", soma);
+console.log("A subtração de a e b é:",sub);
+console.log("O produto de a e b é:",mult);
+console.log("A divisão de a por b é:",div);
+console.log("A média de a e b é: ",media)
