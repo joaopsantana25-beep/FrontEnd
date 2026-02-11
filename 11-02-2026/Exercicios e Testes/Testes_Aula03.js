@@ -13,4 +13,7 @@ function calcular_raiz(numero){
     return raiz
 }
 
-console.log(calcular_raiz(5))
+
+let a = (true)
+
+console.log(typeof a)
