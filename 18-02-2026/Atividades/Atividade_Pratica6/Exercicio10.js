@@ -28,4 +28,4 @@ for (let i =0; i < pedido.quantidades.length;i++){
 }
 
 
-console.log( soma && ("O valor total do pedido é: R$ "+ soma.toFixed(2) +" reais") || "O valor do pedido é nulo")
+console.log( soma && ("O valor total do pedido é: R$ "+ soma.toFixed(2) +" reais") || "O pedido está vazio")
