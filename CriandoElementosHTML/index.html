@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando novos elementos no DOM</title>
+
+    <style>
+        .oculto {
+            visibility: hidden;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1 style = "font-size: large;">Criando novos elementos no DOM com Javascript</h1>
+
+    <button onclick = "criarElemento()">Adicionar Elemento</button>
+    <button onclick = "criarCampoInput()">Adicionar campo de Input</button>
+    <button onclick = "criarInnerText()">Adicionar campo com InnerText</button>
+    <button onclick = "criarTextContent()">Adicionar campo com TextContent</button>
+    <button onclick = "criarInnerHtml()">Adicionar campo com HTML</button>
+    
+
+
+
+    <button onclick="mostrarInnerText()">innerText</button>
+    <button onclick="mostrarTextContent()">textContent</button>
+
+    <div id="item6">
+    Texto Teste
+    <span id="elemento-oculto" class="oculto">Texto do Span</span>
+    </div>
+
+
+    <ul id = "lista-de-elementos"></ul>
+
+   
+
+    <script src="criarElemento.js"></script>
+
+
+
+  
+    
+</body>
+</html>
