@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>GlowBeauty</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f0f5;
+    padding: 20px;
+}
+
+h1 {
+    color: #d63384;
+}
+
+#sacola {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.produto {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    background: white;
+}
+
+button {
+    background: #d63384;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #b0256f;
+}
+
+#cupom {
+    margin-top: 20px;
+    display: none; /* começa oculto */
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>GlowBeauty</h1>
+
+<!-- SACOLA -->
+<div id="sacola">
+🛍️ Sacola: <span id="contador">0</span> item(s)
+</div>
+
+<!-- CATÁLOGO -->
+<h2>Catálogo</h2>
+
+<div id="catalogo">
+
+    <div class="produto">
+        <h3>Creme Hidratante</h3>
+        <p>R$ 29,90</p>
+        <button class="comprar">Adicionar à Sacola</button>
+    </div>
+
+    <div class="produto">
+        <h3>Base Líquida</h3>
+        <p>R$ 45,00</p>
+        <button class="comprar">Adicionar à Sacola</button>
+    </div>
+
+</div>
+
+<hr>
+
+<!-- NOVO PRODUTO -->
+<h2>Adicionar Produto</h2>
+
+<input type="text" id="nomeProduto" placeholder="Nome do produto">
+<input type="number" id="precoProduto" placeholder="Preço">
+
+<button id="btnAdicionar">Adicionar Produto</button>
+
+<hr>
+
+<!-- CUPOM -->
+<button id="mostrarCupom">Mostrar Cupom</button>
+
+<div id="cupom">
+    <input type="password" id="campoCupom" placeholder="Digite seu cupom">
+</div>
+
+<!-- SCRIPT -->
+<script src="script.js"></script>
+
+</body>
+</html>
